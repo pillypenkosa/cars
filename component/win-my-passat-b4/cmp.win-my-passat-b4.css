@@ -1,0 +1,62 @@
+cmp-win-my-passat-b4 {
+	all: initial;
+	display: block;
+
+	/*background: linear-gradient( to bottom, #111, #115 );*/
+
+	font-family: Courier;
+	/*background: rgba( 0, 0, 0, .3 );
+	*/
+
+
+	/*color: #fff;*/
+
+}
+
+
+.win-my-passat-b4-each {
+
+	margin: 0 0 20px 0;
+	padding: 5px;
+	/*border: 1px solid #777;*/
+	color: #fff;
+}
+
+
+	.win-my-passat-b4-each .title {
+		margin: 0 0 5px 0;
+		font-size: 150%;
+		font-style: oblique;
+		color: #fff;
+	}
+
+
+
+	.win-my-passat-b4-each .body .param {
+		color: #0f0;
+	}
+
+		.win-my-passat-b4-each .body .param a {
+			color: #ff0;
+		}
+
+
+
+
+
+
+
+		.win-my-passat-b4-each .body .param .key {
+			font-style: oblique;
+			color: #777;
+
+
+		}
+
+
+
+
+
+
+
+
