@@ -77,9 +77,14 @@ class ComponentWinBuy {
 				}
 
 
+				let manufacturer = '';
+				if ( k.manufacturer ) 
+					manufacturer += `<div class="manufacturer">${ k.manufacturer } ${ k.mark ? k.mark : '' }</div>`;
+
+
 				innerHTML += `<div class="each">
 					<div class="title">${ k.title }</div>
-					<div class="manufacturer">${ k.manufacturer } ${ k.mark }</div>
+					${ manufacturer }
 					<div class="cost">${ cost }</div>
 					${ note }
 				</div>`;
