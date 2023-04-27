@@ -54,8 +54,12 @@ class ComponentMiddle {
 		//console.log( id );
 
 
+		if ( id == 'buy' )
+			html = Component( 'Win-Buy' );
+
 		if ( id == 'my_passat_b4' )
 			html = Component( 'Win-My-Passat-B4' );
+
 
 
 

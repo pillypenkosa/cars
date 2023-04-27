@@ -4,6 +4,7 @@ const dependences = {
 	
 
 
+		'win-buy',
 		'win-my-passat-b4',
 
 		'menu',
@@ -13,7 +14,7 @@ const dependences = {
 
 	listGIT: [ 		// https://pillypenkosa.github.io/database/list/list. ${ k } .js
 
-		//'jars',
+		'buy',
 	],
 
 	listApp: [ 		// list/list. ${ k } .js
