@@ -55,12 +55,12 @@ class ComponentMenu {
 		let err = `\x1b[31m err ${ this.className }.${ name }() `;
 
 		const menu = [
-			{ id: 'my_passat_b4' 	, title: 'Мій Passat B4' 	, },
-			{ id: 'service' 		, title: 'Сервіс' 			, },
-			{ id: 'buy' 			, title: 'Покупки' 			, },
-			{ id: 'model' 			, title: 'Моделі' 			, },
-			{ id: 'engine' 			, title: 'Двигуни' 			, },
+			{ id: 'buy' 			, title: 'Buy' 				, },
+			{ id: 'engine' 			, title: 'Engines' 			, },
+			{ id: 'model' 			, title: 'Models' 			, },
+			{ id: 'my_passat_b4' 	, title: 'My Passat B4' 	, },
 			{ id: 'oem' 			, title: 'OEM' 				, },
+			{ id: 'service' 		, title: 'Service' 			, },
 
 
 
