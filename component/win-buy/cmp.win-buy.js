@@ -59,7 +59,7 @@ class ComponentWinBuy {
 		let innerHTML = '';
 		arrBuy.forEach( k => {
 
-			if ( k.cat.car ) {
+			if ( k.hash.car ) {
 
 				let note = k.note ? `<div class="note">${ k.note }</div>` : '';
 
