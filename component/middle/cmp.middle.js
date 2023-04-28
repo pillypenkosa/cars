@@ -60,6 +60,12 @@ class ComponentMiddle {
 		if ( id == 'my_passat_b4' )
 			html = Component( 'Win-My-Passat-B4' );
 
+		if ( id == 'service' )
+			html = Component( 'Win-Service' );
+
+
+
+
 
 
 

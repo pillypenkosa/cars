@@ -2,8 +2,7 @@ const dependences = {
 
 	components: [
 	
-
-
+		'win-service',
 		'win-buy',
 		'win-my-passat-b4',
 
@@ -24,6 +23,7 @@ const dependences = {
 		'cars.model',
 		'cars.my.passat-b4',
 		'cars.oem',
+		'cars.service',
 		'cars.youtube',
 		
 	],

@@ -1,0 +1,61 @@
+cmp-win-service {
+	all: initial;
+	display: block;
+
+	/*background: linear-gradient( to bottom, #111, #115 );*/
+
+	font-family: Courier;
+	/*background: rgba( 0, 0, 0, .3 );
+	*/
+
+	/*color: #fff;*/
+	/*text-align: center;*/
+}
+
+
+
+
+.win-service-each {
+	display: block;
+	margin: 0 0 2px 0;
+	padding: 5px;
+
+	border: 1px solid #777;
+	border-radius: 5px;
+}
+
+
+	.win-service-each .date {
+		font-size: 80%;
+		font-style: oblique;
+		color: #0f0;
+	}
+
+
+
+.win-service-each .act {
+	color: #0ff;
+}
+
+
+.win-service-each .parts {
+	font-weight: bold;
+	color: #fff;
+
+}
+
+
+.win-service-each .mileage {
+	color: #999;
+}
+
+
+.win-service-each .manufacturer {
+	color: #fff;
+}
+
+
+
+
+
+
