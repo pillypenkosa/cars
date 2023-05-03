@@ -56,11 +56,12 @@ class ComponentMenu {
 
 		const menu = [
 			{ id: 'buy' 			, title: 'Buy' 				, },
-			{ id: 'engine' 			, title: 'Engines' 			, },
-			{ id: 'model' 			, title: 'Models' 			, },
 			{ id: 'my_passat_b4' 	, title: 'My Passat B4' 	, },
-			{ id: 'oem' 			, title: 'OEM' 				, },
 			{ id: 'service' 		, title: 'Service' 			, },
+
+			//{ id: 'engine' 			, title: 'Engines' 			, },
+			//{ id: 'model' 			, title: 'Models' 			, },
+			//{ id: 'oem' 			, title: 'OEM' 				, },
 
 
 

@@ -43,7 +43,7 @@ class ComponentHeader {
 
 		let innerHTML = `
 			<div class="title">${ appProjectName }</div>
-			<div class="btn-menu" onclick="${ this.className }.clcBtnMenu()">#</div>
+			<div class="btn-menu" onclick="${ this.className }.clcBtnMenu()">&#8801;</div>
 			<div class="menu"></div>
 		`;
 
