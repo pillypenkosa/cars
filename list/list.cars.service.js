@@ -131,6 +131,38 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 
+
+
+{
+	date 		: '2023-05-18 10:00',
+	visit 		: '2023_05_18_1000',
+	act 		: 'r',
+	detailID 	: '2023_05_17_1001',
+	mileage 	: '443940',
+	sto 		: 'kharkiv_ar_service',
+	master 		: '',
+	note 		: '',
+},
+{
+	date 		: '2023-05-09 10:00',
+	visit 		: '',
+	act 		: 'r',
+	detailID 	: '2023_05_09_1001',
+	mileage 	: '443900',
+	sto 		: '',
+	master 		: '',
+	note 		: '',
+},
+{
+	date 		: '2023-05-08 12:00',
+	visit 		: '',
+	act 		: 'r',
+	detailID 	: '2023_05_08_1201',
+	mileage 	: '443850',
+	sto 		: '',
+	master 		: '',
+	note 		: '',
+},
 {
 	date 		: '2023-04-26 10:00',
 	visit 		: '2023_04_26_0900',

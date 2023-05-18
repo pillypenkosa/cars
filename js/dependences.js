@@ -24,6 +24,7 @@ const dependences = {
 		'cars.my.passat-b4',
 		'cars.oem',
 		'cars.service',
+		'cars.sto',
 		'cars.youtube',
 		
 	],
