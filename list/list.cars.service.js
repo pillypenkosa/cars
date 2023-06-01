@@ -126,13 +126,16 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 
-
-
-
-
-
-
-
+{
+	date 		: '2023-06-01 14:00',
+	visit 		: '2023_06_01_1400',
+	act 		: 'r',
+	detailID 	: '2023_06_01_1001',
+	mileage 	: '444358',
+	sto 		: 'merefa133',
+	master 		: 'drushlyak_oleg_gennady',
+	price 		: 500,
+},
 {
 	date 		: '2023-05-18 10:00',
 	visit 		: '2023_05_18_1000',
