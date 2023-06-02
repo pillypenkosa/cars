@@ -162,10 +162,11 @@ let arrCarsSto = [
 
 
 let objSto = {};
+/*
 arrPeople.forEach( k => {
 	objSto[ k.id ] = k;
 });
-
+*/
 
 
 

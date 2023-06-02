@@ -35,6 +35,17 @@ let arrCarsOem = [
 	},
 },
 {
+	id 		: '034109309AD',
+	title 	: 'Гідрокомпенсатор',
+	cat 	: '',
+	analog 	: {
+		ina 		: [ '420004010', ],
+	},
+	site 	: {
+		vbavto_com_ua: 1,
+	},
+},
+{
 	id 		: '02A945413C',
 	title 	: 'Датчик (вимикач) ліхтарів заднього ходу / Лягушка',
 	cat 	: '',
@@ -165,6 +176,14 @@ let arrCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id      : '051103483A',
+	title   : 'Прокладка клапанної кришки двигуна',
+	analog 	: {
+		elring 		: [ '915.653', ],
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id      : '028129748',
 	title   : 'Прокладка корпуса впускного колектора та дросельної заслінки',
 	analog 	: {
@@ -246,6 +265,26 @@ let arrCarsOem = [
 		jp_group 	: [ '1191200400', ],
 		metzger 	: [ '0881015', ],
 		topran 		: [ '100980', ],
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '026103085D',
+	title 	: 'Сальник вала',
+	cat 	: '',
+	analog 	: {
+		jp_group 	: [ '325.155', ],
+		vag 		: [ '026103085E', '068103085E', ],
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '3A0609721A',
+	title 	: 'Трос ручника',
+	cat 	: '',
+	analog 	: {
+		jp_group 	: [ '1170303700', ],
+		vag 		: [ '3A0609721A', '3A0609721C', ],
 	},
 	site : { vbavto_com_ua: 1, },
 },
