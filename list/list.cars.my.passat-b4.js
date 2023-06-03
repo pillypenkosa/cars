@@ -58,10 +58,10 @@ const arrCarsMyPassatB4 = [
 		id: 'body', title: 'ГБО-4',
 		body: [
 
-			{ key: 'Встановлено' 	, val: '2023-03-30' 		, },
-			{ key: 'Пробіг' 		, val: '443000 км' 			, },
-			{ key: 'Редуктор' 		, val: 'Tomasetto' 			, },
-			{ key: 'Форсунки' 		, val: 'Valtek' 			, },
+			{ key: 'Встановлено' 	, val: '2023-03-30' 						, },
+			{ key: 'Пробіг' 		, val: '443000 км' 							, },
+			{ key: 'Редуктор' 		, val: 'Tomasetto' 							, },
+			{ key: 'Форсунки' 		, val: 'Valtek' 							, },
 			{ key: 'Бак' 			, val: 'Stag (42 л), старий від ГБО-2' 		, },
 		],
 	},
@@ -76,6 +76,14 @@ const arrCarsMyPassatB4 = [
 			{ key: 'Кліренс' 					, val: '119 мм' 			, },
 		],
 	},
+
+	{	
+		id: 'body', title: 'Салон',
+		body: [
+			{ key: 'Пічка' 					, val: 'Патрубки подача/зворотка - діаметр 20 мм' 			, },
+		],
+	},
+	
 	{	
 		id: 'control',
 		title: 'Керування',
