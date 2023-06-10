@@ -57,6 +57,7 @@ class ComponentMenu {
 		const menu = [
 			{ id: 'buy' 			, title: 'Buy' 				, },
 			{ id: 'my_passat_b4' 	, title: 'My Passat B4' 	, },
+			{ id: 'oem_vag' 		, title: 'OEM VAG' 			, },
 			{ id: 'service' 		, title: 'Service' 			, },
 
 			//{ id: 'engine' 			, title: 'Engines' 			, },

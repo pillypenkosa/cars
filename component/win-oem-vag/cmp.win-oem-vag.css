@@ -1,0 +1,65 @@
+cmp-win-oem-vag {
+	all: initial;
+	display: block;
+
+	/*background: linear-gradient( to bottom, #111, #115 );*/
+
+	font-family: Courier;
+	/*background: rgba( 0, 0, 0, .3 );
+	*/
+
+	/*color: #fff;*/
+	/*text-align: center;*/
+}
+
+
+
+
+
+cmp-win-oem-vag .each {
+
+	display: flex;
+
+	margin: 0 0 5px 0;
+	padding: 2px 5px;
+	border: 1px solid #555;
+	border-radius: 10px;
+
+
+	color: #fff;
+
+
+
+}
+
+/*
+	cmp-win-oem-vag .each .img {
+		width: 100px;
+		height: 100px;
+	}
+*/
+		cmp-win-oem-vag .each .img img {
+			width: 100px;
+			height: 100px;
+		}
+
+	cmp-win-oem-vag .each .info {
+		padding: 0 0 0 10px;
+	}
+		cmp-win-oem-vag .each .info .title {
+			font-weight: bold;
+			font-style: oblique;
+			color: #0f0;
+		}
+
+
+		cmp-win-oem-vag .each .info .analog {
+			font-style: oblique;
+			color: #999;
+		}
+
+
+
+
+
+

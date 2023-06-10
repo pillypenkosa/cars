@@ -5,7 +5,7 @@ const dependences = {
 		'win-service',
 		'win-buy',
 		'win-my-passat-b4',
-
+		'win-oem-vag',
 		'menu',
 		'header',
 		'middle',
