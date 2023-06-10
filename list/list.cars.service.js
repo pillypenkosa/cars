@@ -118,8 +118,76 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 
-/*
-*/
+
+
+
+{
+	date 		: '2023-06-09 9:00',
+	visit 		: '2023_06_09_0900',
+	act 		: 'r',
+	detailID 	: '2023_05_18_1303',
+	mileage 	: '444610',
+	sto 		: '',
+	master 		: 'igor_dvigatelyar_vysoky',
+	price 		: 0,
+},
+{
+	date 		: '2023-06-09 9:00',
+	visit 		: '2023_06_09_0900',
+	act 		: 'r',
+	detailID 	: '2023_05_18_1302',
+	mileage 	: '444610',
+	sto 		: '',
+	master 		: 'igor_dvigatelyar_vysoky',
+	price 		: 0,
+},
+{
+	date 		: '2023-06-09 9:00',
+	visit 		: '2023_06_09_0900',
+	act 		: 'r',
+	detailID 	: '2022_12_03_1101',
+	mileage 	: '444610',
+	sto 		: '',
+	master 		: 'igor_dvigatelyar_vysoky',
+	price 		: 0,
+},
+{
+	date 		: '2023-06-09 9:00',
+	visit 		: '2023_06_09_0900',
+	act 		: 'r',
+	detailID 	: '2023_06_02_1831',
+	mileage 	: '444610',
+	sto 		: '',
+	master 		: 'igor_dvigatelyar_vysoky',
+	price 		: 0,
+},
+{
+	date 		: '2023-06-09 9:00',
+	visit 		: '2023_06_09_0900',
+	act 		: 'r',
+	detailID 	: '2023_06_02_1832',
+	mileage 	: '444610',
+	sto 		: '',
+	master 		: 'igor_dvigatelyar_vysoky',
+	price 		: 0,
+},
+{
+	date 		: '2023-06-09 9:00',
+	visit 		: '2023_06_09_0900',
+	act 		: 'r',
+	detailID 	: '2023_06_02_1833',
+	mileage 	: '444610',
+	sto 		: '',
+	master 		: 'igor_dvigatelyar_vysoky',
+	price 		: 1500,
+},
+
+
+
+
+
+
+
 
 
 
