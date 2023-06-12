@@ -381,6 +381,28 @@ let arrCarsOem = [
 
 
 
+/*
+
+
+{
+	id 		: '',
+	title   : 'Поршень 82.5',
+	engine 	: { _2e: 1, agg: 1, ady: 1, abf: 1, },
+	analog 	: {
+
+	},
+	site : { },
+},
+
+
+
+
+*/
+
+
+
+
+
 
 
 
