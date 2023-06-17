@@ -7,11 +7,11 @@
 
 let objCarServiceAct = {
 
-	i 		: 'Встановлення', 			// i
+	i 		: 'Встановлення', 		// i
 	r 		: 'Заміна', 			// replacement
 	wa 		: 'Розвал-сходження', 	// wheel alignment
 	ts 		: 'Розбірки', 			// troubleshooting
-	welding : 'Зварювання', 	// 
+	welding : 'Зварювання', 		// 
 	
 
 }; 
@@ -118,16 +118,32 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 
-
-
-
+{
+	date 		: '2023-06-17 17:00',
+	visit 		: '2023_06_17_1700',
+	title 		: 'Лямбда-зонд',
+	act 		: 'ts',
+	detailID 	: '',
+	mileage 	: '444920',
+	sto 		: 'merefa133',
+	price 		: 600,
+},
+{
+	date 		: '2023-06-17 9:00',
+	visit 		: '2023_06_17_0900',
+	title 		: 'Угол зажигания',
+	act 		: 'ts',
+	detailID 	: '',
+	mileage 	: '444920',
+	sto 		: 'merefa133',
+	price 		: 300,
+},
 {
 	date 		: '2023-06-09 9:00',
 	visit 		: '2023_06_09_0900',
 	act 		: 'r',
 	detailID 	: '2023_05_18_1303',
 	mileage 	: '444610',
-	sto 		: '',
 	master 		: 'igor_dvigatelyar_vysoky',
 	price 		: 0,
 },
@@ -137,7 +153,6 @@ price:      { total: 150, item: 2, price: 75 },
 	act 		: 'r',
 	detailID 	: '2023_05_18_1302',
 	mileage 	: '444610',
-	sto 		: '',
 	master 		: 'igor_dvigatelyar_vysoky',
 	price 		: 0,
 },
