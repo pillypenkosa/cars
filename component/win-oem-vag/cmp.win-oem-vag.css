@@ -53,6 +53,24 @@ cmp-win-oem-vag .each {
 		}
 
 
+
+
+
+
+		cmp-win-oem-vag .each .info .hash {
+			font-style: oblique;
+			color: #0ff;
+		}
+
+
+			cmp-win-oem-vag .each .info .hash .key-title {
+				color: #777;
+			}
+
+
+
+
+
 		cmp-win-oem-vag .each .info .analog {
 			font-style: oblique;
 			color: #999;

@@ -1,35 +1,68 @@
-	
-let arrCarsOem = [
 
 
-/*
+
+const arrCarsOem = [
+
+
 
 {
-	id 		: '',   // VAG code
-	title 	: '',
-	cat 	: '',
-	analog 	: {
-		vag: [ '', ],
+	id 		: '037997023SX', img: 'control_block',
+	title 	: 'Блок управління DIGIFANT для 2Е МКПП для 037906022GD',
+	hash 	: {
+		cat 	: { electro: 1, control: 1, pc: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
 	},
-	site : {
-		vbavto_com_ua: 1, // https://vbavto.com.ua/products?q= ID этого объекта
+	analog 	: {},
+	site 	: {
+		vbavto_com_ua: 1,
 	},
 },
-
-*/
-
-
-
-
-
-
-
-
+{
+	id 		: '037997023TX', img: 'control_block',
+	title 	: 'Блок управління DIGIFANT для 2Е АКПП для 037906022GC',
+	hash 	: {
+		cat 	: { electro: 1, control: 1, pc: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {},
+	site 	: {
+		vbavto_com_ua: 1,
+	},
+},
+{
+	id 		: '037906025', img : 'control_block',
+	title 	: 'Блок управління SIMOS для ADY',
+	hash 	: {
+		cat 	: { electro: 1, control: 1, pc: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { ady: 1, },
+	},
+	analog 	: {},
+	site 	: {
+		vbavto_com_ua: 1,
+	},
+},
+{
+	id 		: '037906025G', img: 'control_block',
+	title 	: 'Блок управління SIMOS для AGG',
+	hash 	: {
+		cat 	: { electro: 1, control: 1, pc: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { agg: 1, },
+	},
+	analog 	: {},
+	site 	: {
+		vbavto_com_ua: 1,
+	},
+},
 {
 	id 		: 'N90241203',
 	title 	: 'Гвинт M4 x 20',
-	cat 	: '',
-	analog 	: {},
+	hash 	: {
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+	},
 	site 	: {
 		vbavto_com_ua: 1,
 	},
@@ -37,7 +70,11 @@ let arrCarsOem = [
 {
 	id 		: '034109309AD',
 	title 	: 'Гідрокомпенсатор',
-	cat 	: '',
+	hash 	: {
+		cat 	: { engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		ina 		: [ '420004010', ],
 	},
@@ -48,7 +85,11 @@ let arrCarsOem = [
 {
 	id 		: '02A945413C',
 	title 	: 'Датчик (вимикач) ліхтарів заднього ходу / Лягушка',
-	cat 	: '',
+	hash 	: {
+		cat 	: { cpp: 1, sensor: 1, electro: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		era 		: [ '330744', ],
 		febi 		: [ '21760', ],
@@ -64,20 +105,32 @@ let arrCarsOem = [
 {
 	id 		: '037906301C',
 	title 	: 'Датчик масової витрати повітря / ДМРВ',
-	cat 	: '',
+	hash 	: {
+		cat 	: { cpp: 1, sensor: 1, electro: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {},
 	site 	: { vbavto_com_ua: 1, },
 },
 {
 	id 		: '357407721B',
 	title 	: 'Захист пластиковий над приводом',
-	cat 	: '',
+	hash 	: {
+		cat 	: { chassis: 1, axle_front: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+	},
 	analog 	: {},
 	site 	: { vbavto_com_ua: 1, },
 },
 {
 	id 		: '037906457C',
 	title   : 'Клапан холостого ходу',
+	hash 	: {
+		cat 	: { engine: 1, sensor: 1, electro: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		era: [ '556017A', ],
 		ika: [ '933581', ],
@@ -86,23 +139,36 @@ let arrCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id 		: '02A300048HX', img: 'cpp',
+	title   : 'КПП CNL',
+	hash 	: {
+		cat 	: { cpp: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+	},
+
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '02A300048KX', img: 'cpp',
+	title   : 'КПП CRU',
+	hash 	: {
+		cat 	: { cpp: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id 		: '06N0905104',
 	title 	: 'Котушка запалювання',
 	cat 	: '',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		beru 			: [ 'ZSE001', ],
 		bremi 			: [ '11893', ],
-		champion 		: [ 'BAE851AE245', ],
-		febi 			: [ '17194', ],
-		hella 			: [ '5DA006623951', ],
-		jp_group 		: [ '1191601500', ],
-		magneti_marelli : [ '060717007012', '060717005012', '060717008012', ],
-		meyle 			: [ '1009050007', ],
-		mobiletron 		: [ 'CE09', 'IGH016K', ],
-		meat_doria 		: [ '10308', ],
-		swag 			: [ '30917194', ],
-		valeo 			: [ '245092', ],
-		ngk 			: [ '48000', ],
 	},
 	site : {
 		vbavto_com_ua: 1,
@@ -110,15 +176,49 @@ let arrCarsOem = [
 	note: 'Роз\'єм: 3 контакти',
 },
 {
+	id 		: '021906265C',
+	title 	: 'Лямбда-зонд ( для 2E с каталізатором )',
+	hash 	: {
+		cat 	: { sensor: 1, electro: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {},
+	site 	: {
+		vbavto_com_ua: 1,
+	},
+},
+{
+	id 		: '037906265',
+	title 	: 'Лямбда-зонд ( для 2E без каталізатора )',
+	hash 	: {
+		cat 	: { sensor: 1, electro: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {},
+	site 	: {
+		vbavto_com_ua: 1,
+	},
+},
+{
 	id 		: '435881203A',
 	title   : 'Направляюча салазок сидіння',
+	hash 	: {
+		cat 	: { salon: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+	},
 	analog 	: {},
 	site : { },
 },
 {
 	id 		: '037103493AB',
 	title 	: 'Патрубок вентиляції картерних газів (подвійний шланг-штани)',
-	cat 	: '',
+	hash 	: {
+		cat 	: { engine: 1, pipe: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		jp_group 	: [ '1112000200', ],
 		meyle 		: [ '1000360001', ],
@@ -131,7 +231,11 @@ let arrCarsOem = [
 {
 	id 		: '037133383',
 	title 	: 'Патрубок вентиляції картерних газів (z-трубка до КХХ)',
-	cat 	: '',
+	hash 	: {
+		cat 	: { engine: 1, pipe: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		vag: [ '037133394T', ],
 	},
@@ -140,7 +244,11 @@ let arrCarsOem = [
 {
 	id 		: '037103213B',
 	title 	: 'Патрубок вентиляції картерних газів (Г-трубка)',
-	cat 	: '',
+	hash 	: {
+		cat 	: { engine: 1, pipe: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		jp_group 	: [ '1111152000',  ],
 		topran 		: [ '109614', '109614755', ],
@@ -152,14 +260,22 @@ let arrCarsOem = [
 {
 	id 		: '357129627AC',
 	title 	: 'Патрубок повітряний (хобот від повітряного фільтру до дроссельної заслінки)',
-	cat 	: '',
+	hash 	: {
+		cat 	: { engine: 1, pipe: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {},
 	site 	: { vbavto_com_ua: 1, },
 },
 {
 	id 		: '1H0819371',
 	title 	: 'Патрубок радіатора обігрівача (вхід/подача)',
-	cat 	: '',
+	hash 	: {
+		cat 	: { pipe: 1, cool: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		vag 		: [ '1H0819371C', '1HM819371', '1H0819371J', '1H0819371G', ],
 		febi 		: [ '33535', ],
@@ -171,7 +287,11 @@ let arrCarsOem = [
 {
 	id 		: '1H0819373C',
 	title 	: 'Патрубок радіатора обігрівача (вихід/зворотній)',
-	cat 	: '',
+	hash 	: {
+		cat 	: { pipe: 1, cool: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		jp_group 	: [ '1114304400', ],
 		meyle 		: [ '1198190014', ],
@@ -182,8 +302,12 @@ let arrCarsOem = [
 {
 	id 		: 'ZEF561',
 	title   : 'Провода ВВ (свічні)',
+	hash 	: {
+		cat 	: { wire: 1, ignition: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
-
 		beru 	: [ 'ZEF561', '0300.890.561', ],
 		bosch 	: [ '0986356338' ],
 		ngk 	: [ '0946' ],
@@ -193,6 +317,11 @@ let arrCarsOem = [
 {
 	id      : '051103483A',
 	title   : 'Прокладка клапанної кришки двигуна',
+	hash 	: {
+		cat 	: { gasket: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		elring 		: [ '915.653', ],
 	},
@@ -201,6 +330,12 @@ let arrCarsOem = [
 {
 	id      : '028129748',
 	title   : 'Прокладка корпуса впускного колектора та дросельної заслінки',
+
+	hash 	: {
+		cat 	: { gasket: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		elring 		: [ '620.222', ],
 	},
@@ -209,7 +344,11 @@ let arrCarsOem = [
 {
 	id 		: '028103609A',
 	title 	: 'Прокладка піддону картера двигуна',
-	cat 	: '',
+	hash 	: {
+		cat 	: { gasket: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		elring 		: [ '213.070', '248.097', '447.340', '495.620', ],
 		febi 		: [ '07556', '21734', ],
@@ -222,7 +361,11 @@ let arrCarsOem = [
 {
 	id 		: '1H1819031A',
 	title 	: 'Радіатор обігрівача',
-	cat 	: '',
+	hash 	: {
+		cat 	: { salon: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		vag 		: [ '1H2819031A', ],
 		febi 		: [ '11089', ],
@@ -236,7 +379,11 @@ let arrCarsOem = [
 {
 	id 		: '1H0953227',
 	title 	: 'Реле поворотників // 21',
-	cat 	: '',
+	hash 	: {
+		cat 	: { relay: 1, electro: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		febi 		: [ '11574', ],
 
@@ -246,7 +393,11 @@ let arrCarsOem = [
 {
 	id 		: '037905205J',
 	title 	: 'Розподільник запалювання',
-	cat 	: '',
+	hash 	: {
+		cat 	: { ignition: 1, electro: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		vag 	: [ '0237520040', '037905237A', '037905237AX', '037905205C', ],
 		bosch 	: [ '0237520048', ],
@@ -258,7 +409,11 @@ let arrCarsOem = [
 {
 	id 		: '052905225C',
 	title 	: 'Розподільник запалювання (бігунок)',
-	cat 	: '',
+	hash 	: {
+		cat 	: { ignition: 1, electro: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		beru 		: [ 'EVL134', '0300900134', ],
 		bosch 		: [ '1234332350', ],
@@ -271,7 +426,11 @@ let arrCarsOem = [
 {
 	id 		: '051905207',
 	title 	: 'Розподільник запалювання (кришка)',
-	cat 	: '',
+	hash 	: {
+		cat 	: { ignition: 1, electro: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		beru 		: [ 'VK407S', ],
 		bosch 		: [ '1235522444', ],
@@ -286,7 +445,11 @@ let arrCarsOem = [
 {
 	id 		: '026103085D',
 	title 	: 'Сальник вала',
-	cat 	: '',
+	hash 	: {
+		cat 	: { gasket: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		jp_group 	: [ '325.155', ],
 		vag 		: [ '026103085E', '068103085E', ],
@@ -294,9 +457,22 @@ let arrCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id 		: '3A9955713A',
+	title 	: 'Склоочисник задній. Двигун',
+	hash 	: {
+		cat 	: { electro: 1, wagon: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id 		: '3A0609721A',
 	title 	: 'Трос ручника',
-	cat 	: '',
+	hash 	: {
+		cat 	: { hawser: 1, brake: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		jp_group 	: [ '1170303700', ],
 		vag 		: [ '3A0609721A', '3A0609721C', ],
@@ -306,6 +482,11 @@ let arrCarsOem = [
 {
 	id 		: '06A115561B',
 	title   : 'Фільтр олійний',
+	hash 	: {
+		cat 	: { filter: 1, oil: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		bosch 			: [ '0986452023', '0451103033', '0451103050', '0451103074', '0451103086', '0451103258', '0451103259', '0451103314', '0451103369', '0451103904', ],
 		febi 			: [ '22542', '22550', ],
@@ -318,6 +499,12 @@ let arrCarsOem = [
 {
 	id 		: '1H0201511A',
 	title   : 'Фільтр паливний',
+
+	hash 	: {
+		cat 	: { filter: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		bosch 			: [ '0450905201', ],
 		champion 		: [ 'CFF100206', ],
@@ -337,6 +524,11 @@ let arrCarsOem = [
 {
 	id 		: '191129620',
 	title   : 'Фільтруючий елемент фільтру повітряного',
+	hash 	: {
+		cat 	: { filter: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		bosch 			: [ '1457429777', ],
 		champion 		: [ 'CAF100572P', ],
@@ -354,6 +546,11 @@ let arrCarsOem = [
 {
 	id 		: '3A0819644',
 	title   : 'Фільтруючий елемент фільтру салону',
+	hash 	: {
+		cat 	: { filter: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		bosch 			: [ '1 987 432 013', ],
 		champion 		: [ 'CCF0019', ],
@@ -372,32 +569,16 @@ let arrCarsOem = [
 {
 	id 		: '073906031G',
 	title   : 'Форсунка паливна',
+	hash 	: {
+		cat 	: { ignition: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
 	analog 	: {
 		vag: [ '073906031', '037906031G', ],
 	},
 	site : { },
 },
-
-
-
-
-/*
-
-
-{
-	id 		: '',
-	title   : 'Поршень 82.5',
-	engine 	: { _2e: 1, agg: 1, ady: 1, abf: 1, },
-	analog 	: {
-
-	},
-	site : { },
-},
-
-
-
-
-*/
 
 
 
@@ -412,6 +593,57 @@ let arrCarsOem = [
 ];
 
 
+
+
+
+
+const objCarsOemHash = {
+
+	axle_back 		: 'Задня вісь',
+	axle_front 		: 'Передня вісь',
+	brake 			: 'Гальма',
+	chassis 		: 'Ходова частина',
+	control 		: 'Керування', 
+	cool 			: 'Охолодження',
+	cpp				: 'КПП',
+	electro 		: 'Електрика', 
+	engine 			: 'Двигун',
+	filter 			: 'Фільтр', 
+	gasket 			: 'Прокладка',
+	hawser 			: 'Трос',
+	ignition 		: 'Запалювання',
+	oil 			: 'Олія',
+	pipe 			: 'Патрубок',
+	pc 				: 'Комп\'ютер',
+	relay 			: 'Реле',
+	salon 			: 'Салон',
+	sensor 			: 'Датчик',
+	wire 			: 'Дріт', 
+
+	sedan 			: 'Седан',
+	wagon 			: 'Універсал',
+
+	vag 			: 'VAG', 
+	vw_passat_b3 	: 'VW Passat B3', 
+	vw_passat_b4 	: 'VW Passat B4',
+
+	_2e 			: '2E',
+	ady 			: 'ADY',
+	agg 			: 'AGG',
+
+};
+
+
+
+
+
+const objCarsOemCat = {
+
+	cat 	: 'Категорії', 
+	car 	: 'Авто', 
+	engine 	: 'Двигуни',
+
+};
 
 
 

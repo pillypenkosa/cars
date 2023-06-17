@@ -83,13 +83,39 @@ class ComponentWinOemVag {
 				analog = `<div class="analog">${ analog }</div>`;
 			}
 
+
+			let htmlHash = '';
+			if ( k.hash ) {
+
+				let hash1 = '';
+				for ( let k2 in k.hash ) {
+
+					let hash2 = `<span class="key-title">${ objCarsOemCat[ k2 ] }:</span> `;
+					for ( let k3 in k.hash[ k2 ] ) {
+
+						hash2 += `${ objCarsOemHash[ k3 ] }; `;
+					}
+
+					hash1 += `<div class="hash-${ k2 }">${ hash2 }</div>`;
+
+					//htmlHash += `<div class="hash-${ k2 }">${ k.hash[ k2 ] }</div>`; 
+				}
+
+				htmlHash = `<div class="hash">${ hash1 }</div>`;
+			}
+
+
+
+
+
 			innerHTML += `<div class="each">
 				<div class="img">
-					<img src="img/carparts/vag/${ k.id }.jpg">
+					<img src="img/carparts/vag/${ k.img ? k.img : k.id }.jpg">
 				</div>
 				<div class="info">
 					<div class="title">${ k.title }</div>
 					<div class="vag-oem">VAG ${ k.id }</div>
+					${ htmlHash }
 					${ analog }
 				</div>
 			</div>`;
