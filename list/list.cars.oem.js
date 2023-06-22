@@ -68,6 +68,15 @@ const arrCarsOem = [
 	},
 },
 {
+	id 		: 'N90271604',
+	title 	: 'Гвинт M6 x 22 для корпусу дросселя',
+	hash 	: {
+		car 	: { vag: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	site 	: {},
+},
+{
 	id 		: '034109309AD',
 	title 	: 'Гідрокомпенсатор',
 	hash 	: {
