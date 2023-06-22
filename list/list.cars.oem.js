@@ -300,6 +300,16 @@ const arrCarsOem = [
 	site 	: { vbavto_com_ua: 1, },
 },
 {
+	id 		: 'N90684405',
+	title 	: 'Пін-контакт JPT 2.8 мм // для роз\'ємів ',
+	hash 	: {
+		cat 	: { vw_passat_b4: 1, electro: 1, },
+		car 	: { vag: 1, },
+	},
+	analog 	: {},
+	site 	: { vbavto_com_ua: 1, },
+},
+{
 	id 		: 'ZEF561',
 	title   : 'Провода ВВ (свічні)',
 	hash 	: {
