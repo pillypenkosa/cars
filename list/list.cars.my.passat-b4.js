@@ -83,7 +83,6 @@ const arrCarsMyPassatB4 = [
 			{ key: 'Пічка' 					, val: 'Патрубки подача/зворотка - діаметр 20 мм' 			, },
 		],
 	},
-	
 	{	
 		id: 'control',
 		title: 'Керування',
@@ -226,9 +225,6 @@ const arrCarsMyPassatB4 = [
 			
 		],
 	},
-
-
-
 	{	
 		id: 'light',
 		title: 'Освітлення',
@@ -252,17 +248,40 @@ const arrCarsMyPassatB4 = [
 			{ key: 'Бокові поворотники' 	, val: 'KBVW02, світлі' , },
 			{ key: 'Бокові поворотники' 	, val: 'KBVW06, темні' 	, },
 
-
-
-
 			{ key: '---' 			, val: '--- Магазини --- ' 	,  site: [ 
 					{ title: 'design-tuning.com', href: 'https://design-tuning.com/cat_item/auto-11000-328-0/', },
 				],},
 
-
-
 		],
 	},
+	{	
+		id: 'vag_com',
+		title: 'VAG COM',
+		body: [
+			{ 
+				key: 'Відеоінструкція', 
+				val: '', 
+				site: [ 
+					{ title: 'youtube.com', href: 'https://www.youtube.com/watch?v=OZlzpd1M7Mw', },
+				],   
+			},
+
+			{ 
+				key: 'ПЗ', 
+				val: 'VCDS 22.3 (пароль: Vag12345)', 
+				site: [ 
+					{ title: 'drive.google.com', href: 'https://drive.google.com/file/d/1BAckpBdCncuTk9622DknMWn52ZZscO2R/view', },
+				],   
+			},
+		],
+	},
+
+
+
+
+
+
+
 
 
 
