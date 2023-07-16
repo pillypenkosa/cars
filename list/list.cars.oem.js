@@ -148,22 +148,43 @@ const arrCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
-	id 		: '02A300048HX', img: 'cpp',
-	title   : 'КПП CNL',
+	id 		: '357867300A',
+	title   : 'Кліпса-фіксатор, стойки над вікнами',
 	hash 	: {
-		cat 	: { cpp: 1, },
-		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		cat 	: { salon: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
 	},
-
+	analog 	: {},
 	site : { vbavto_com_ua: 1, },
 },
 {
-	id 		: '02A300048KX', img: 'cpp',
-	title   : 'КПП CRU',
+	id 		: '357867300',
+	title   : 'Кліпса-фіксатор, стойки над вікнами',
 	hash 	: {
-		cat 	: { cpp: 1, },
-		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		cat 	: { salon: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
 	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '333867300',
+	title   : 'Кліпса-фіксатор, стойки над вікнами',
+	hash 	: {
+		cat 	: { salon: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '357867646',
+	title   : 'Кліпса-фіксатор, задня накладка 357867617',
+	hash 	: {
+		cat 	: { salon: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
 	site : { vbavto_com_ua: 1, },
 },
 {
@@ -183,6 +204,25 @@ const arrCarsOem = [
 		vbavto_com_ua: 1,
 	},
 	note: 'Роз\'єм: 3 контакти',
+},
+{
+	id 		: '02A300048HX', img: 'cpp',
+	title   : 'КПП CNL',
+	hash 	: {
+		cat 	: { cpp: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+	},
+
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '02A300048KX', img: 'cpp',
+	title   : 'КПП CRU',
+	hash 	: {
+		cat 	: { cpp: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+	},
+	site : { vbavto_com_ua: 1, },
 },
 {
 	id 		: '021906265C',
@@ -219,6 +259,19 @@ const arrCarsOem = [
 	},
 	analog 	: {},
 	site : { },
+},
+{
+	id 		: '357867617',
+	title   : 'Обшивка салону, пластикова задня накладка стелі',
+	hash 	: {
+		cat 	: { salon: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {
+		vag 	: [ '357867617', '357867617A', '333867617', ],
+
+	},
+	site : { vbavto_com_ua: 1, },
 },
 {
 	id 		: '037103493AB',
@@ -306,16 +359,6 @@ const arrCarsOem = [
 		meyle 		: [ '1198190014', ],
 		topran 		: [ '108309', ],
 	},
-	site 	: { vbavto_com_ua: 1, },
-},
-{
-	id 		: 'N90684405',
-	title 	: 'Пін-контакт JPT 2.8 мм // для роз\'ємів ',
-	hash 	: {
-		cat 	: { vw_passat_b4: 1, electro: 1, },
-		car 	: { vag: 1, },
-	},
-	analog 	: {},
 	site 	: { vbavto_com_ua: 1, },
 },
 {
@@ -410,6 +453,67 @@ const arrCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id 		: '3A0971519A',
+	title 	: 'Роз\'єм маси, коронка-ромашка велика (піни 4.8 мм та 2.8 мм)',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '3A0971519',
+	title 	: 'Роз\'єм маси, коронка-ромашка мала (піни 4.8 мм)',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '3A0972751H',
+	title 	: 'Роз\'єм маси, штекер силовий (корпус коричневий)',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '701906231A',
+	title 	: 'Роз\'єм маси, штекер несиловий (корпус можливо інших кольорів)',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: 'N90732603',
+	title 	: 'Роз\'єм, пін силовий для 3A0972751H (підходить мама 4.8 мм)',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+
+{
+	id 		: 'N90684405',
+	title 	: 'Роз\'єм, пін JPT 2.8 мм несиловий для 3A0972751H ( підходить мама 2.8 мм )',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id 		: '037905205J',
 	title 	: 'Розподільник запалювання',
 	hash 	: {
@@ -496,6 +600,16 @@ const arrCarsOem = [
 		jp_group 	: [ '1170303700', ],
 		vag 		: [ '3A0609721A', '3A0609721C', ],
 	},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '357972741A',
+	title 	: 'Ущільнювач дротів в роз\'ємах',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {},
 	site : { vbavto_com_ua: 1, },
 },
 {
