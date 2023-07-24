@@ -92,6 +92,18 @@ const arrCarsOem = [
 	},
 },
 {
+	id 		: '3A0253609M',
+	title 	: 'Глушник',
+	hash 	: {
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {},
+	site 	: {
+		vbavto_com_ua: 1,
+	},
+},
+{
 	id 		: '02A945413C',
 	title 	: 'Датчик (вимикач) ліхтарів заднього ходу / Лягушка',
 	hash 	: {
