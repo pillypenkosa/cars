@@ -71,7 +71,7 @@ class ComponentWinOemVag {
 
 							eachCode += k1 + ' ' + k.analog[ k1 ];
 
-							console.log( k1, k.analog[ k1 ] );
+							//console.log( k1, k.analog[ k1 ] );
 						}
 
 
