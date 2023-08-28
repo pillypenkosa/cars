@@ -451,6 +451,23 @@ const arrCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id 		: '141951253B',
+	title 	: 'Реле 4-контактне',
+	hash 	: {
+		cat 	: { relay: 1, electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: {
+		automega 		: [ '150025710', ],
+		febi 			: [ '34751', ],
+		hella 			: [ '4RA933332451', ],
+		jp_group 		: [ '1199206000', ],
+		meyle 			: [ '1009370001', ],
+		topran 			: [ '102409', ],
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id 		: '1H0953227',
 	title 	: 'Реле поворотників // 21',
 	hash 	: {
@@ -466,7 +483,7 @@ const arrCarsOem = [
 },
 {
 	id 		: '3A0971519A',
-	title 	: 'Роз\'єм маси, коронка-ромашка велика (піни 4.8 мм та 2.8 мм)',
+	title 	: 'Роз\'єм маси, коронка велика (піни 4.8 мм та 2.8 мм)',
 	hash 	: {
 		cat 	: { electro: 1, },
 		car 	: { vag: 1, vw_passat_b4: 1, },
@@ -476,7 +493,7 @@ const arrCarsOem = [
 },
 {
 	id 		: '3A0971519',
-	title 	: 'Роз\'єм маси, коронка-ромашка мала (піни 4.8 мм)',
+	title 	: 'Роз\'єм маси, коронка мала (піни 4.8 мм)',
 	hash 	: {
 		cat 	: { electro: 1, },
 		car 	: { vag: 1, vw_passat_b4: 1, },
