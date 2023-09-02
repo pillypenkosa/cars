@@ -402,8 +402,21 @@ const arrCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id      : '048129717A',
+	title   : 'Прокладка колектора впускного',
+	hash 	: {
+		cat 	: { gasket: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {
+		reinz 		: [ '71-29173-00', ],
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id      : '028129748',
-	title   : 'Прокладка корпуса впускного колектора та дросельної заслінки',
+	title   : 'Прокладка заслінки дросельної та корпуса колектора впускного',
 
 	hash 	: {
 		cat 	: { gasket: 1, engine: 1, },
@@ -669,17 +682,17 @@ const arrCarsOem = [
 	},
 	analog 	: {
 		bosch 			: [ '0450905201', ],
-		champion 		: [ 'CFF100206', ],
-		denckermann 	: [ 'A110002', ],
+		//champion 		: [ 'CFF100206', ],
+		//denckermann 	: [ 'A110002', ],
 		febi 			: [ '24073', ],
 		jp_group 		: [ '1118700600', ],
 		mahle 			: [ 'KL2', 'KL65', ],
 		mann_filter 	: [ 'WK830', 'WK830/7', 'WK831', ],
-		meat_doria 		: [ '4024/1', ],
+		//meat_doria 		: [ '4024/1', ],
 		meyle 			: [ '0143230007', '3141332108', ],
-		kolbenschmidt 	: [ '50013632', ],
-		topran 			: [ '103023', ],
-		valeo 			: [ '587004', '587006', ],
+		//kolbenschmidt 	: [ '50013632', ],
+		//topran 			: [ '103023', ],
+		//valeo 			: [ '587004', '587006', ],
 	},
 	site : { vbavto_com_ua: 1, },
 },
