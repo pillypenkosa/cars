@@ -7,12 +7,15 @@
 
 let objCarServiceAct = {
 
-	i 		: 'Встановлення', 		// i
-	r 		: 'Заміна', 			// replacement
-	wa 		: 'Розвал-сходження', 	// wheel alignment
-	ts 		: 'Розбірки', 			// troubleshooting
-	welding : 'Зварювання', 		// 
+	d 			: 'Діагностика', 		// 
+	i 			: 'Встановлення', 		// i
+	r 			: 'Заміна', 			// replacement
+	wa 			: 'Розвал-сходження', 	// wheel alignment
+	ts 			: 'Розбірки', 			// troubleshooting
+	welding 	: 'Зварювання', 		// 
 	
+
+
 
 }; 
 
@@ -120,11 +123,59 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 
+
+
+
+
+
+
+
+
+{
+	date 		: '2023-09-02 10:02',
+	visit 		: '2023_09_02_1002',
+	title 		: 'Чистка форсунок',
+	act 		: 'd',
+	detailID 	: '',
+	mileage 	: '447692',
+	sto 		: 'merefaGirka',
+	price 		: 1400,
+},
+{
+	date 		: '2023-09-02 10:01',
+	visit 		: '2023_09_02_1001',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2023_08_17_1201',
+	mileage 	: '447692',
+	sto 		: 'merefaGirka',
+	price 		: 0,
+},
+{
+	date 		: '2023-09-02 10:00',
+	visit 		: '2023_09_02_1000',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2023_08_17_1200',
+	mileage 	: '447692',
+	sto 		: 'merefaGirka',
+	price 		: 0,
+},
+{
+	date 		: '2023-09-01 10:00',
+	visit 		: '',
+	title 		: 'Заміна реле дальньої лівої фари',
+	act 		: 'r',
+	detailID 	: '2023_09_01_0900',
+	mileage 	: '447680',
+	sto 		: '',
+	price 		: 0,
+},
 {
 	date 		: '2023-07-27 9:00',
 	visit 		: '2023_07_27_0900',
 	title 		: '',
-	act 		: 'ts',
+	act 		: 'r',
 	detailID 	: '2023_07_26_2100',
 	mileage 	: '446265',
 	sto 		: 'merefa133',

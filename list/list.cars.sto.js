@@ -98,6 +98,14 @@ let arrCarsSto = [
 	gps 		: 'C72gWAPdr3nrKoZGA',
 },
 {
+	id 			: 'merefaGirka',
+	title 		: 'Мотель-Кафе-СТО',
+	locality 	: 'Мерефа',
+	adress		: '',
+	orientir 	: 'Траса, перед спуском в Мерефу з боку Харкова',  
+	gps 		: 'p3koGmjsT3h74wNw6',
+},
+{
 	id 			: 'merefaYakovlevka',
 	title 		: 'Multi Service',
 	locality 	: 'Мерефа',
@@ -105,7 +113,6 @@ let arrCarsSto = [
 	orientir 	: 'Автосервис ( по дороге на Яковлевку )',  
 	gps 		: '2rz5uyWfiDTo9frW8',
 },
-
 {
 	id 			: 'kharkiv_lpg_master',
 	title 		: 'LPG Master',
