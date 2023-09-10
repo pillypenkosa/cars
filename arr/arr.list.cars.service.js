@@ -5,7 +5,7 @@
 
 
 
-let objCarServiceAct = {
+let objListCarServiceAct = {
 
 	d 			: 'Діагностика', 		// 
 	i 			: 'Встановлення', 		// i
@@ -22,7 +22,7 @@ let objCarServiceAct = {
 
 
 
-let arrCarsService = [
+let arrListCarsService = [
 
 /*
 

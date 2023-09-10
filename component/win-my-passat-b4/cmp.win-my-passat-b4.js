@@ -57,7 +57,7 @@ class ComponentWinMyPassatB4 {
 
 
 		let htmlMyCar = '';
-		arrCarsMyPassatB4.forEach( k => {
+		arrListCarsMyPassatB4.forEach( k => {
 
 			let htmlEachBody = '';
 

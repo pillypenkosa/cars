@@ -1,4 +1,4 @@
-const objCarsModel = [
+const objListCarsModel = [
 
 
 	{

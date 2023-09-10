@@ -1,4 +1,4 @@
-const arrCarsYoutube = [
+const arrListCarsYoutube = [
 
 
 
@@ -1278,9 +1278,9 @@ const del222 = [
 
 
 
-let objCarsYoutube = {};
-arrCarsYoutube.forEach( k => {
-	objCarsYoutube[ k.id ] = k;
+let objListCarsYoutube = {};
+arrListCarsYoutube.forEach( k => {
+	objListCarsYoutube[ k.id ] = k;
 });
 
 //console.log( objYoutube );

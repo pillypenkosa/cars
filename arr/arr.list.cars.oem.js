@@ -1,7 +1,4 @@
-
-
-
-const arrCarsOem = [
+const arrListCarsOem = [
 
 
 
@@ -772,7 +769,7 @@ const arrCarsOem = [
 
 
 
-const objCarsOemHash = {
+const objListCarsOemHash = {
 
 	axle_back 		: 'Задня вісь',
 	axle_front 		: 'Передня вісь',
@@ -812,7 +809,7 @@ const objCarsOemHash = {
 
 
 
-const objCarsOemCat = {
+const objListCarsOemCat = {
 
 	cat 	: 'Категорії', 
 	car 	: 'Авто', 

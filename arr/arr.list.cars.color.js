@@ -1,4 +1,4 @@
-const arrCarsColor  = [
+const arrListCarsColor  = [
 
 { 
 	id: '0A',
@@ -22,9 +22,9 @@ const arrCarsColor  = [
 
 
 
-let objCarsColor = {};
-arrCarsColor.forEach( k => {
-	objCarsColor[ k.id ] = k;
+let objListCarsColor = {};
+arrListCarsColor.forEach( k => {
+	objListCarsColor[ k.id ] = k;
 });
 
 

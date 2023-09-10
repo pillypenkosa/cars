@@ -1,4 +1,4 @@
-const arrCarsMyPassatB4 = [
+const arrListCarsMyPassatB4 = [
 
 	{
 		id: 'car', title: 'Автомобіль',

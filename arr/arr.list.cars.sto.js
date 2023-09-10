@@ -1,5 +1,5 @@
 
-let arrCarsSto = [
+let arrListCarsSto = [
 
 
 /*
@@ -168,7 +168,7 @@ let arrCarsSto = [
 
 
 
-let objSto = {};
+let objListSto = {};
 /*
 arrPeople.forEach( k => {
 	objSto[ k.id ] = k;

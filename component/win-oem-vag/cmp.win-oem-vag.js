@@ -58,7 +58,7 @@ class ComponentWinOemVag {
 
 
 		let innerHTML = '';
-		arrCarsOem.forEach( k => {
+		arrListCarsOem.forEach( k => {
 
 
 			let analog = '';
@@ -90,10 +90,10 @@ class ComponentWinOemVag {
 				let hash1 = '';
 				for ( let k2 in k.hash ) {
 
-					let hash2 = `<span class="key-title">${ objCarsOemCat[ k2 ] }:</span> `;
+					let hash2 = `<span class="key-title">${ objListCarsOemCat[ k2 ] }:</span> `;
 					for ( let k3 in k.hash[ k2 ] ) {
 
-						hash2 += `${ objCarsOemHash[ k3 ] }; `;
+						hash2 += `${ objListCarsOemHash[ k3 ] }; `;
 					}
 
 					hash1 += `<div class="hash-${ k2 }">${ hash2 }</div>`;

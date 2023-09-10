@@ -57,7 +57,7 @@ class ComponentWinBuy {
 
 
 		let innerHTML = '';
-		arrBuy.forEach( k => {
+		arrListBuy.forEach( k => {
 
 			if ( k.hash.car ) {
 

@@ -58,13 +58,13 @@ class ComponentWinService {
 
 
 		let innerHTML = '';
-		arrCarsService.forEach( k => {
+		arrListCarsService.forEach( k => {
 
 			//console.log( k.detailID, objBuy[ k.detailID ] );
 
-			let parts = k.detailID ? objBuy[ k.detailID ].title : ( k.title ? k.title : '' );
-			let manufacturer = k.detailID ? ( objBuy[ k.detailID ].manufacturer ? objBuy[ k.detailID ].manufacturer : '' ) : '';
-			let mark = k.detailID ? ( objBuy[ k.detailID ].mark ? objBuy[ k.detailID ].mark : '' ) : '';
+			let parts = k.detailID ? objListBuy[ k.detailID ].title : ( k.title ? k.title : '' );
+			let manufacturer = k.detailID ? ( objListBuy[ k.detailID ].manufacturer ? objListBuy[ k.detailID ].manufacturer : '' ) : '';
+			let mark = k.detailID ? ( objListBuy[ k.detailID ].mark ? objListBuy[ k.detailID ].mark : '' ) : '';
 
 			let mileage = k.mileage ? `<span class="mileage">// ${ k.mileage } км</span>` : '';
 
@@ -74,7 +74,7 @@ class ComponentWinService {
 			innerHTML += `<div class="${ this.tagName }-each">
 				<div class="parts">${ parts }</div>
 				<div class="manufacturer">${ manufacturer } ${ mark }</div>
-				<div class="act">${ objCarServiceAct[ k.act ] }</div>
+				<div class="act">${ objListCarServiceAct[ k.act ] }</div>
 				<div class="date">${ k.date } ${ mileage }</div>
 			</div>`;
 
