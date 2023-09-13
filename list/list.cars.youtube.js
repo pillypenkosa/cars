@@ -1192,17 +1192,26 @@ UfMORGLJywU "> Форсунка. Проверка работоспособнос
 },
 
 
-
-
-
-
-
-
-
-
-
-
-
+{ 
+	title: 'Замена передней подушки двигателя', ch: 'Валерий Маслов',
+	id: '7gSpxexd_3s', href: '7gSpxexd_3s',
+	hash: { engine:1, repair: 1, b3: 1, b4: 1, }, 
+},
+{ 
+	title: 'Замена передней опоры подушки двигателя', ch: 'Андрей Северный',
+	id: 'gTcchtM238I', href: 'gTcchtM238I',
+	hash: { engine:1, repair: 1, b3: 1, b4: 1, }, 
+},
+{ 
+	title: 'Замена маленькой подушки двигателя', ch: 'Андрей Демура',
+	id: 'im-Qi_BpLWo', href: 'im-Qi_BpLWo',
+	hash: { engine:1, repair: 1, b3: 1, b4: 1, }, 
+},
+{ 
+	title: 'Замена задних подушек двигателя', ch: 'Андрей Северный',
+	id: '_lGEEbZfKQI', href: '_lGEEbZfKQI',
+	hash: { engine:1, repair: 1, b3: 1, b4: 1, }, 
+},
 
 
 

@@ -605,6 +605,39 @@ const arrListCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id 		: '191199279',
+	title 	: 'Сайлент-блок // опора-подушка двигуна // передня',
+	hash 	: {
+		cat 	: { gasket: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '191199262A',
+	title 	: 'Сайлент-блок // опора-подушка двигуна // задня',
+	hash 	: {
+		cat 	: { gasket: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
+	id 		: '3A0199402',
+	title 	: 'Сайлент-блок // опора-подушка двигуна/КПП (маленька, з боку водія)',
+	hash 	: {
+		cat 	: { gasket: 1, engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id 		: '026103085D',
 	title 	: 'Сальник вала',
 	hash 	: {
