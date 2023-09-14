@@ -605,7 +605,7 @@ const arrListCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
-	id 		: '191199279',
+	id 		: '1H0199609B',
 	title 	: 'Сайлент-блок // опора-подушка двигуна // передня',
 	hash 	: {
 		cat 	: { gasket: 1, engine: 1, },
@@ -616,7 +616,7 @@ const arrListCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
-	id 		: '191199262A',
+	id 		: '357199262A',
 	title 	: 'Сайлент-блок // опора-подушка двигуна // задня',
 	hash 	: {
 		cat 	: { gasket: 1, engine: 1, },
