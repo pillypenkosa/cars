@@ -612,7 +612,9 @@ const arrListCarsOem = [
 		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
 		engine 	: { _2e: 1, },
 	},
-	analog 	: {},
+	analog 	: {
+		corteco: [ '21651935' ],
+	},
 	site : { vbavto_com_ua: 1, },
 },
 {
@@ -623,7 +625,9 @@ const arrListCarsOem = [
 		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
 		engine 	: { _2e: 1, },
 	},
-	analog 	: {},
+	analog 	: { 
+		birth 		: [ '5483', ],
+	},
 	site : { vbavto_com_ua: 1, },
 },
 {
@@ -634,7 +638,9 @@ const arrListCarsOem = [
 		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
 		engine 	: { _2e: 1, },
 	},
-	analog 	: {},
+	analog 	: {
+		corteco: [ '21652428' ],
+	},
 	site : { vbavto_com_ua: 1, },
 },
 {
