@@ -62,7 +62,14 @@ class ComponentWinService {
 
 			//console.log( k.detailID, objBuy[ k.detailID ] );
 
-			let parts = k.detailID ? objListBuy[ k.detailID ].title : ( k.title ? k.title : '' );
+			//let parts = k.detailID ? objListBuy[ k.detailID ].title : ( k.title ? k.title : '' );
+			let parts = k.detailID ? objListBuy[ k.detailID ].title : '';
+			const act = k.act ? ( objListCarServiceAct[ k.act ] ? objListCarServiceAct[ k.act ] : '' ) : '';
+			const title = k.title ? k.title : '';
+
+
+
+
 			let manufacturer = k.detailID ? ( objListBuy[ k.detailID ].manufacturer ? objListBuy[ k.detailID ].manufacturer : '' ) : '';
 			let mark = k.detailID ? ( objListBuy[ k.detailID ].mark ? objListBuy[ k.detailID ].mark : '' ) : '';
 
@@ -72,10 +79,11 @@ class ComponentWinService {
 
 
 			innerHTML += `<div class="${ this.tagName }-each">
+				<div class="date">${ k.date } ${ mileage }</div>
+				<div class="act">${ act }</div>
+				<div class="title">${ title }</div>
 				<div class="parts">${ parts }</div>
 				<div class="manufacturer">${ manufacturer } ${ mark }</div>
-				<div class="act">${ objListCarServiceAct[ k.act ] }</div>
-				<div class="date">${ k.date } ${ mileage }</div>
 			</div>`;
 
 

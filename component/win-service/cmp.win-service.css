@@ -44,6 +44,14 @@ cmp-win-service {
 
 }
 
+.win-service-each .title {
+	/*font-weight: bold;*/
+	color: #fff;
+}
+
+
+
+
 
 .win-service-each .mileage {
 	color: #999;
