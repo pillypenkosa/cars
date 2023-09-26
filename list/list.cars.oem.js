@@ -691,6 +691,18 @@ const arrListCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id 		: '', img: 'junyan_lpvw97',
+	title 	: 'Фари передні ( тюнінг )',
+	hash 	: {
+		cat 	: { electro: 1, },
+		car 	: { vag: 1, vw_passat_b4: 1, },
+	},
+	analog 	: { 
+		junyan: [ 'LPVW97' ], 
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id 		: '06A115561B',
 	title   : 'Фільтр олійний',
 	hash 	: {

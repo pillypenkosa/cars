@@ -55,7 +55,7 @@ const arrListCarsMyPassatB4 = [
 	},
 
 	{	
-		id: 'body', title: 'ГБО-4',
+		id: 'gbo4', title: 'ГБО-4',
 		body: [
 
 			{ key: 'Встановлено' 	, val: '2023-03-30' 						, },
@@ -74,6 +74,7 @@ const arrListCarsMyPassatB4 = [
 				], 
 			},
 			{ key: 'Кліренс' 					, val: '119 мм' 			, },
+			{ key: 'Фари тюнінг' 				, val: 'Junyan LPVW97 Daylight Black' 			, },
 		],
 	},
 
