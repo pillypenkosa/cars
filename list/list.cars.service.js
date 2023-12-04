@@ -122,6 +122,79 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 
+{
+	date 		: '2023-12-04 9:00',
+	visit 		: '2023-12-04_0900',
+	act 		: 'r',
+	detailID 	: '2023_11_12_0902',
+	mileage 	: '450660',
+	sto 		: 'merefa133',
+	price 		: 0,
+},
+
+{
+	date 		: '2023-12-04 9:00',
+	visit 		: '2023-12-04_0900',
+	act 		: 'r',
+	detailID 	: '2023_11_12_0901',
+	mileage 	: '450660',
+	sto 		: 'merefa133',
+	price 		: 0,
+},
+
+
+
+
+
+
+{
+	date 		: '2023-12-04 9:00',
+	visit 		: '2023-12-04_0900',
+	act 		: 'r',
+	detailID 	: '2023_12_01_1004',
+	mileage 	: '450660',
+	sto 		: 'merefa133',
+	price 		: 0,
+},
+{
+	date 		: '2023-12-04 9:00',
+	visit 		: '2023-12-04_0900',
+	act 		: 'r',
+	detailID 	: '2023_12_01_1003',
+	mileage 	: '450660',
+	sto 		: 'merefa133',
+	price 		: 0,
+},
+{
+	date 		: '2023-12-04 9:00',
+	visit 		: '2023-12-04_0900',
+	act 		: 'r',
+	detailID 	: '2023_12_01_1002',
+	mileage 	: '450660',
+	sto 		: 'merefa133',
+	price 		: 0,
+},
+{
+	date 		: '2023-12-04 9:00',
+	visit 		: '2023-12-04_0900',
+	act 		: 'r',
+	detailID 	: '2023_12_01_1001',
+	mileage 	: '450660',
+	sto 		: 'merefa133',
+	price 		: 0,
+},
+{
+	date 		: '2023-12-04 9:00',
+	visit 		: '2023-12-04_0900',
+	act 		: 'r',
+	detailID 	: '2023_12_01_1000',
+	mileage 	: '450660',
+	sto 		: 'merefa133',
+	price 		: 3500,
+},
+
+
+
 
 
 
