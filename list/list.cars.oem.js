@@ -197,6 +197,24 @@ const arrListCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	img 	: 'exhaust_collector',
+	title   : 'Колектор випускний',
+	hash 	: {
+		cat 	: { engine: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {
+		vag: [ '037253031L', ],
+	},
+},
+
+
+
+
+
+
+{
 	id 		: '06N0905104',
 	title 	: 'Котушка запалювання',
 	cat 	: '',
@@ -802,6 +820,13 @@ const arrListCarsOem = [
 	},
 	site : { },
 },
+
+
+
+
+
+
+
 
 
 
