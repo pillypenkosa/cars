@@ -722,7 +722,7 @@ const arrListCarsOem = [
 },
 {
 	id 		: '06A115561B',
-	title   : 'Фільтр олійний',
+	title   : 'Фільтр масляний',
 	hash 	: {
 		cat 	: { filter: 1, oil: 1, },
 		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
@@ -860,7 +860,7 @@ const objListCarsOemHash = {
 	gasket 			: 'Прокладка',
 	hawser 			: 'Трос',
 	ignition 		: 'Запалювання',
-	oil 			: 'Олія',
+	oil 			: 'Масло',
 	pipe 			: 'Патрубок',
 	pc 				: 'Комп\'ютер',
 	relay 			: 'Реле',

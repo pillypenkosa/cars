@@ -122,6 +122,17 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 
+
+{
+	date 		: '2024-03-01 9:00',
+	visit 		: '2024-03-01_0900',
+	title 		: 'Заварювання труби на місці каталізатору',
+	act 		: 'welding',
+	detailID 	: '',
+	mileage 	: '451070',
+	sto 		: 'merefa133',
+	price 		: 1000,
+},
 {
 	date 		: '2023-12-04 9:00',
 	visit 		: '2023-12-04_0900',
@@ -140,15 +151,6 @@ price:      { total: 150, item: 2, price: 75 },
 	sto 		: 'merefa133',
 	price 		: 0,
 },
-
-
-
-
-
-
-
-
-
 {
 	date 		: '2023-12-04 9:00',
 	visit 		: '2023-12-04_0900',
