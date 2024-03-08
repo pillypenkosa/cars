@@ -8,14 +8,31 @@ class LoadDependences {
 
 	static load() {
 
-		// завантаження списків БД з GitHub
-		dependences.listGIT.forEach( k => {
+		// завантаження списків БД з загальної db
+		dependences.listDB.forEach( k => {
 
 			let script = document.createElement( 'script' );
-			script.src = `https://pillypenkosa.github.io/database/list/list.${ k }.js`;
+			script.src = `https://pillypenkosa.github.io/db/list/list.${ k }.js`;
 			//script.setAttribute( 'defer', '' );
 			divList.append( script );
 		});
+
+
+
+
+
+
+
+		// завантаження списків БД з конкретного сайту
+		dependences.lists.forEach( k => {
+
+			let script = document.createElement( 'script' );
+			script.src = `https://pillypenkosa.github.io/${ k.site }/list/list.${ k.list }.js`;
+			//script.setAttribute( 'defer', '' );
+			divList.append( script );
+		});
+
+
 
 
 

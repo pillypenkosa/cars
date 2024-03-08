@@ -1,5 +1,8 @@
 const dependences = {
 
+
+
+
 	components: [
 	
 		'win-service',
@@ -11,10 +14,19 @@ const dependences = {
 		'middle',
 	],
 
-	listGIT: [ 		// https://pillypenkosa.github.io/database/list/list. ${ k } .js
+	listDB: [ 		// https://pillypenkosa.github.io/db/list/list. ${ k } .js
 
-		'buy',
+		//'buy',
 	],
+
+
+	lists: [ 		// https://pillypenkosa.github.io/ ${ k.site } /list/list. ${ k.list } .js
+
+		{ site: 'buy', list: 'buy', },
+
+	],
+	
+
 
 	listApp: [ 		// list/list. ${ k } .js
 
