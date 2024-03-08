@@ -8,18 +8,6 @@ class LoadDependences {
 
 	static load() {
 
-		// завантаження списків БД з загальної db
-		dependences.listDB.forEach( k => {
-
-			let script = document.createElement( 'script' );
-			script.src = `https://pillypenkosa.github.io/db/list/list.${ k }.js`;
-			//script.setAttribute( 'defer', '' );
-			divList.append( script );
-		});
-
-
-
-
 
 
 
@@ -44,6 +32,8 @@ class LoadDependences {
 			//script.setAttribute( 'defer', '' );
 			divList.append( script );
 		});
+
+
 
 
 
