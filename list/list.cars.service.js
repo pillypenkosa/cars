@@ -123,6 +123,28 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 
+
+
+{
+	date 		: '2024-04-01 8:00',
+	visit 		: '2024-04-01_0800',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2024_03_03_1002',
+	mileage 	: '452060',
+	sto 		: 'merefa133',
+	price 		: 600,
+},
+{
+	date 		: '2024-04-01 8:00',
+	visit 		: '2024-04-01_0800',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2024_03_03_1001',
+	mileage 	: '452060',
+	sto 		: 'merefa133',
+	price 		: 0,
+},
 {
 	date 		: '2024-03-01 9:00',
 	visit 		: '2024-03-01_0900',
