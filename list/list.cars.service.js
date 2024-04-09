@@ -120,11 +120,26 @@ price:      { total: 150, item: 2, price: 75 },
 */
 
 
-
-
-
-
-
+{
+	date 		: '2024-04-09 15:30',
+	visit 		: '',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2024_04_09_1501',
+	mileage 	: '452335',
+	sto 		: '',
+	price 		: 0,
+},
+{
+	date 		: '2024-04-09 15:30',
+	visit 		: '',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2024_04_09_1500',
+	mileage 	: '452335',
+	sto 		: '',
+	price 		: 0,
+},
 {
 	date 		: '2024-04-01 8:00',
 	visit 		: '2024-04-01_0800',
