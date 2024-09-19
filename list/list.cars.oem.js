@@ -2,6 +2,28 @@ const arrListCarsOem = [
 
 
 
+
+
+
+
+
+
+
+
+
+{
+	id 		: '1H0121407', img: '',
+	title 	: 'Бачок розширювальний',
+	hash 	: {
+		cat 	: { cool: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {},
+	site 	: {
+		vbavto_com_ua: 1,
+	},
+},
 {
 	id 		: '037997023SX', img: 'control_block',
 	title 	: 'Блок управління DIGIFANT для 2Е МКПП для 037906022GD',
