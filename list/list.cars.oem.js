@@ -721,6 +721,20 @@ const arrListCarsOem = [
 	site : { vbavto_com_ua: 1, },
 },
 {
+	id 		: '357957803A',
+	title 	: 'Трос спідометра',
+	hash 	: {
+		cat 	: { hawser: 1, },
+		car 	: { vag: 1, vw_passat_b3: 1, vw_passat_b4: 1, },
+		engine 	: { _2e: 1, },
+	},
+	analog 	: {
+		adriauto 	: [ '55.1524', ],
+		vag 		: [ '357957803A',  ],
+	},
+	site : { vbavto_com_ua: 1, },
+},
+{
 	id 		: '357972741A',
 	title 	: 'Ущільнювач дротів в роз\'ємах',
 	hash 	: {
