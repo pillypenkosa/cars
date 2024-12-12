@@ -121,6 +121,36 @@ price:      { total: 150, item: 2, price: 75 },
 
 
 {
+	date 		: '2024-12-12 12:00',
+	visit 		: '2024_12_12_1200',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2024_11_30_1102',
+	mileage 	: '454680', 	
+	sto 		: 'merefa133',
+	price 		: 0,
+},
+{
+	date 		: '2024-12-12 12:00',
+	visit 		: '2024_12_12_1200',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2024_11_30_1101',
+	mileage 	: '454680', 	
+	sto 		: 'merefa133',
+	price 		: 0,
+},
+{
+	date 		: '2024-12-12 12:00',
+	visit 		: '2024_12_12_1200',
+	title 		: '',
+	act 		: 'r',
+	detailID 	: '2024_11_30_1100',
+	mileage 	: '454680', 		// після довгого простою спідометра
+	sto 		: 'merefa133',
+	price 		: 1000,
+},
+{
 	date 		: '2024-04-09 15:30',
 	visit 		: '',
 	title 		: '',
