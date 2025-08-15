@@ -147,6 +147,11 @@ price:      { total: 150, item: 2, price: 75 },
 	sto 		: 'merefa133',
 	price 		: 0,
 },
+
+
+
+
+
 {
 	date 		: '2024-12-12 12:00',
 	visit 		: '2024_12_12_1200',
