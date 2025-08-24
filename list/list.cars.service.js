@@ -137,6 +137,10 @@ price:      { total: 150, item: 2, price: 75 },
 	master 		: 'titov_mykola_petro',		
 	price 		: 800,
 },
+
+
+
+
 {
 	date 		: '2024-12-12 12:00',
 	visit 		: '2024_12_12_1200',
